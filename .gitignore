@@ -1,0 +1,9 @@
+# Dane dostępowe — NIGDY do repo
+firmware/src/secrets.h
+
+# PlatformIO
+firmware/.pio/
+.vscode/
+# Obrazy .bin zawierają secrets.h (hasło Wi-Fi i panelu) — nigdy do repo
+firmware/build/
+__pycache__/

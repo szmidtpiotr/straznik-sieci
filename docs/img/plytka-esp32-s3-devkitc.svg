@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">
+  <rect width="640" height="560" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold">ESP32-S3-DevKitC-1 — co jest gdzie (rysunek poglądowy)</text>
+  <!-- board -->
+  <rect x="200" y="50" width="180" height="440" rx="8" fill="#1d1d1f" stroke="#000"/>
+  <!-- module + antenna -->
+  <rect x="225" y="62" width="130" height="150" rx="4" fill="#c9ccd1" stroke="#777"/>
+  <rect x="225" y="62" width="130" height="38" fill="#2f6f3e"/>
+  <text x="290" y="86" text-anchor="middle" fill="#fff" font-size="12">antena</text>
+  <text x="290" y="150" text-anchor="middle" font-size="13">ESP32-S3</text>
+  <text x="290" y="168" text-anchor="middle" font-size="11">WROOM-1 N16R8</text>
+  <!-- headers -->
+  <g fill="#e6c34a">
+    <rect x="207" y="230" width="12" height="230"/><rect x="361" y="230" width="12" height="230"/>
+  </g>
+  <!-- LED -->
+  <circle cx="290" cy="300" r="10" fill="#3ddc84" stroke="#fff" stroke-width="2"/>
+  <!-- buttons -->
+  <rect x="232" y="420" width="30" height="22" rx="3" fill="#bbb"/><text x="247" y="458" text-anchor="middle" fill="#fff" font-size="11">BOOT</text>
+  <rect x="318" y="420" width="30" height="22" rx="3" fill="#bbb"/><text x="333" y="458" text-anchor="middle" fill="#fff" font-size="11">RST</text>
+  <!-- usb ports -->
+  <rect x="226" y="472" width="48" height="26" rx="8" fill="#9aa0a6" stroke="#555"/>
+  <rect x="306" y="472" width="48" height="26" rx="8" fill="#9aa0a6" stroke="#555"/>
+  <!-- callouts -->
+  <g stroke="#d33" stroke-width="2" fill="none">
+    <line x1="355" y1="81" x2="430" y2="81"/>
+    <line x1="300" y1="300" x2="430" y2="300"/>
+    <line x1="348" y1="431" x2="430" y2="410"/>
+    <line x1="232" y1="431" x2="185" y2="431"/>
+    <line x1="250" y1="498" x2="160" y2="525"/>
+    <line x1="330" y1="498" x2="430" y2="525"/>
+    <line x1="207" y1="345" x2="165" y2="345"/>
+  </g>
+  <g font-size="13">
+    <text x="436" y="76" font-weight="bold">Antena Wi-Fi</text>
+    <text x="436" y="94">nie zasłaniaj metalem,</text>
+    <text x="436" y="110">nie wkładaj do puszki</text>
+    <text x="436" y="295" font-weight="bold">Dioda RGB — stan</text>
+    <text x="436" y="313">zielona: wszystko działa</text>
+    <text x="436" y="329">żółta: coś nie odpowiada</text>
+    <text x="436" y="345">czerwona: awaria</text>
+    <text x="436" y="361">niebieska: brak Wi-Fi</text>
+    <text x="436" y="405" font-weight="bold">RST = restart</text>
+    <text x="10" y="395" font-weight="bold">BOOT</text>
+    <text x="10" y="411">trzymaj przy podłączaniu,</text>
+    <text x="10" y="427">gdy wgrywanie nie rusza</text>
+    <text x="10" y="330" font-weight="bold">Piny (tu nic</text>
+    <text x="10" y="346" font-weight="bold">nie podłączasz)</text>
+    <text x="10" y="520" font-weight="bold">Gniazdo „UART”</text>
+    <text x="10" y="536">tu podłącz kabel do komputera</text>
+    <text x="10" y="552">(wgrywanie + podgląd logów)</text>
+    <text x="436" y="520" font-weight="bold">Gniazdo „USB”</text>
+    <text x="436" y="536">też zasila, ale logów</text>
+    <text x="436" y="552">tu nie zobaczysz</text>
+  </g>
+  <text x="320" y="44" text-anchor="middle" font-size="11" fill="#666">Kolejność gniazd UART/USB różni się między wersjami — patrz napis na płytce obok gniazda.</text>
+</svg>
